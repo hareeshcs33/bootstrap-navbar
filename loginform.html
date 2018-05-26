@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="libraries/bootstrap-4.0.0-beta.3/css/bootstrap.css">
+
+	<title>LogIn Page</title>
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="libraries/jquery-3.3.1.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+		crossorigin="anonymous"></script> -->
+	<script src="libraries/bootstrap-4.0.0-beta.3/js/bootstrap.js"></script>
+	
+	<script src="scripts/myscript1.js"></script>
+	<link rel="stylesheet" href="styles/mystyle1.css">
+  </head>
+  <body>
+        <a type="button" id="mainpage" class="btn btn-success" href="index.html" style="display:none" >Main Page</a>
+	  	<h1 style="color:green"></h1>
+		<section id="form_before_lounch">
+			<p>LogIn</p>
+			<form id="form" method="post" onsubmit="return false">
+				<div>
+					<div>
+						<input type="text" id="username" placeholder="Username"/>
+					</div>
+					<div>
+						<input type="password" id="password" placeholder="Password"/>
+					</div>
+					<div id="btn">
+                        <input type="submit" id="submit" value="Log In"/>                       
+					</div>
+				</div>
+			</form>
+		</section>
+  </body>
+</html>
